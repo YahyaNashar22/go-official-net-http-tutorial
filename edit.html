@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Edit {{.Title}}</title>
+  </head>
+  <body>
+    <h1>Editing {{.Title}}</h1>
+
+    <form action="/save/" method="POST">
+      <div>
+        <textarea name="body" rows="20" cols="80">
+                {{printf "%s" .Body}}
+            </textarea
+        >
+      </div>
+      <div>
+        <input value="Save" type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

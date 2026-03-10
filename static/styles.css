@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+
+  min-height: 100dvh;
+  max-width: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+
+  background-color: #0c0c0c;
+  color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
